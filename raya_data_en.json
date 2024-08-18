@@ -1,0 +1,1583 @@
+[
+    {
+        "category": "Mobiles & Tablets",
+        "products": [
+            {
+                "name": "iPhone 13",
+                "description": "Apple iPhone 13 with A15 Bionic chip and 6.1-inch display",
+                "price": 999.99,
+                "attributes": {
+                    "brand": "Apple",
+                    "storage": "128GB",
+                    "color": "Blue"
+                }
+            },
+            {
+                "name": "Samsung Galaxy S21",
+                "description": "Samsung Galaxy S21 with Exynos 2100 and 6.2-inch display",
+                "price": 799.99,
+                "attributes": {
+                    "brand": "Samsung",
+                    "storage": "256GB",
+                    "color": "Phantom Gray"
+                }
+            },
+            {
+                "name": "Huawei P50 Pro",
+                "description": "Huawei P50 Pro with Kirin 9000 and 6.6-inch display",
+                "price": 899.99,
+                "attributes": {
+                    "brand": "Huawei",
+                    "storage": "256GB",
+                    "color": "Gold"
+                }
+            },
+            {
+                "name": "Xiaomi Mi 11",
+                "description": "Xiaomi Mi 11 with Snapdragon 888 and 6.81-inch display",
+                "price": 699.99,
+                "attributes": {
+                    "brand": "Xiaomi",
+                    "storage": "128GB",
+                    "color": "Horizon Blue"
+                }
+            },
+            {
+                "name": "OnePlus 9 Pro",
+                "description": "OnePlus 9 Pro with Snapdragon 888 and 6.7-inch display",
+                "price": 969.99,
+                "attributes": {
+                    "brand": "OnePlus",
+                    "storage": "256GB",
+                    "color": "Morning Mist"
+                }
+            },
+            {
+                "name": "Google Pixel 6",
+                "description": "Google Pixel 6 with Google Tensor and 6.4-inch display",
+                "price": 599.99,
+                "attributes": {
+                    "brand": "Google",
+                    "storage": "128GB",
+                    "color": "Stormy Black"
+                }
+            },
+            {
+                "name": "Sony Xperia 1 III",
+                "description": "Sony Xperia 1 III with Snapdragon 888 and 6.5-inch 4K display",
+                "price": 1199.99,
+                "attributes": {
+                    "brand": "Sony",
+                    "storage": "256GB",
+                    "color": "Frosted Black"
+                }
+            },
+            {
+                "name": "Oppo Find X3 Pro",
+                "description": "Oppo Find X3 Pro with Snapdragon 888 and 6.7-inch display",
+                "price": 1149.99,
+                "attributes": {
+                    "brand": "Oppo",
+                    "storage": "256GB",
+                    "color": "Gloss Black"
+                }
+            },
+            {
+                "name": "Realme GT",
+                "description": "Realme GT with Snapdragon 888 and 6.43-inch display",
+                "price": 499.99,
+                "attributes": {
+                    "brand": "Realme",
+                    "storage": "128GB",
+                    "color": "Racing Yellow"
+                }
+            },
+            {
+                "name": "Nokia X20",
+                "description": "Nokia X20 with Snapdragon 480 and 6.67-inch display",
+                "price": 349.99,
+                "attributes": {
+                    "brand": "Nokia",
+                    "storage": "128GB",
+                    "color": "Midnight Sun"
+                }
+            },
+            {
+                "name": "iPad Pro",
+                "description": "Apple iPad Pro with M1 chip and 12.9-inch display",
+                "price": 1099.99,
+                "attributes": {
+                    "brand": "Apple",
+                    "storage": "128GB",
+                    "color": "Space Gray"
+                }
+            },
+            {
+                "name": "Samsung Galaxy Tab S7",
+                "description": "Samsung Galaxy Tab S7 with Snapdragon 865+ and 11-inch display",
+                "price": 649.99,
+                "attributes": {
+                    "brand": "Samsung",
+                    "storage": "128GB",
+                    "color": "Mystic Black"
+                }
+            },
+            {
+                "name": "Huawei MatePad Pro",
+                "description": "Huawei MatePad Pro with Kirin 990 and 10.8-inch display",
+                "price": 499.99,
+                "attributes": {
+                    "brand": "Huawei",
+                    "storage": "128GB",
+                    "color": "Forest Green"
+                }
+            },
+            {
+                "name": "Xiaomi Pad 5",
+                "description": "Xiaomi Pad 5 with Snapdragon 860 and 11-inch display",
+                "price": 399.99,
+                "attributes": {
+                    "brand": "Xiaomi",
+                    "storage": "128GB",
+                    "color": "Cosmic Gray"
+                }
+            },
+            {
+                "name": "Lenovo Tab P11 Pro",
+                "description": "Lenovo Tab P11 Pro with Snapdragon 730G and 11.5-inch display",
+                "price": 499.99,
+                "attributes": {
+                    "brand": "Lenovo",
+                    "storage": "128GB",
+                    "color": "Slate Gray"
+                }
+            },
+            {
+                "name": "Microsoft Surface Pro 7",
+                "description": "Microsoft Surface Pro 7 with Intel i5 and 12.3-inch display",
+                "price": 899.99,
+                "attributes": {
+                    "brand": "Microsoft",
+                    "storage": "128GB",
+                    "color": "Platinum"
+                }
+            },
+            {
+                "name": "Asus ROG Phone 5",
+                "description": "Asus ROG Phone 5 with Snapdragon 888 and 6.78-inch display",
+                "price": 999.99,
+                "attributes": {
+                    "brand": "Asus",
+                    "storage": "256GB",
+                    "color": "Phantom Black"
+                }
+            },
+            {
+                "name": "Acer Iconia One 10",
+                "description": "Acer Iconia One 10 with MediaTek MT8167A and 10.1-inch display",
+                "price": 199.99,
+                "attributes": {
+                    "brand": "Acer",
+                    "storage": "32GB",
+                    "color": "Black"
+                }
+            },
+            {
+                "name": "Amazon Fire HD 10",
+                "description": "Amazon Fire HD 10 with MediaTek MT8183 and 10.1-inch display",
+                "price": 149.99,
+                "attributes": {
+                    "brand": "Amazon",
+                    "storage": "32GB",
+                    "color": "Black"
+                }
+            },
+            {
+                "name": "Alcatel 1T 10",
+                "description": "Alcatel 1T 10 with MediaTek MT8321 and 10.1-inch display",
+                "price": 129.99,
+                "attributes": {
+                    "brand": "Alcatel",
+                    "storage": "16GB",
+                    "color": "Gray"
+                }
+            }
+        ]
+    },
+    {
+        "category": "Televisions",
+        "products": [
+            {
+                "name": "Samsung QLED Q80T",
+                "description": "Samsung 55-inch QLED 4K UHD Smart TV with Quantum Processor 4K",
+                "price": 1299.99,
+                "attributes": {
+                    "brand": "Samsung",
+                    "size": "55 inches",
+                    "resolution": "4K UHD",
+                    "smart": "Yes"
+                }
+            },
+            {
+                "name": "LG OLED CX",
+                "description": "LG 65-inch OLED 4K UHD Smart TV with AI ThinQ",
+                "price": 2199.99,
+                "attributes": {
+                    "brand": "LG",
+                    "size": "65 inches",
+                    "resolution": "4K UHD",
+                    "smart": "Yes"
+                }
+            },
+            {
+                "name": "Sony Bravia X900H",
+                "description": "Sony 75-inch 4K UHD Smart LED TV with HDR",
+                "price": 2499.99,
+                "attributes": {
+                    "brand": "Sony",
+                    "size": "75 inches",
+                    "resolution": "4K UHD",
+                    "smart": "Yes"
+                }
+            },
+            {
+                "name": "TCL 6-Series",
+                "description": "TCL 55-inch 4K UHD Roku Smart TV with Dolby Vision",
+                "price": 649.99,
+                "attributes": {
+                    "brand": "TCL",
+                    "size": "55 inches",
+                    "resolution": "4K UHD",
+                    "smart": "Yes"
+                }
+            },
+            {
+                "name": "Vizio M-Series",
+                "description": "Vizio 50-inch 4K UHD Quantum LED Smart TV",
+                "price": 499.99,
+                "attributes": {
+                    "brand": "Vizio",
+                    "size": "50 inches",
+                    "resolution": "4K UHD",
+                    "smart": "Yes"
+                }
+            },
+            {
+                "name": "Hisense H8G",
+                "description": "Hisense 65-inch 4K UHD Android Smart TV with Quantum Dot",
+                "price": 749.99,
+                "attributes": {
+                    "brand": "Hisense",
+                    "size": "65 inches",
+                    "resolution": "4K UHD",
+                    "smart": "Yes"
+                }
+            },
+            {
+                "name": "Panasonic HX800",
+                "description": "Panasonic 58-inch 4K UHD Smart TV with Dolby Atmos",
+                "price": 999.99,
+                "attributes": {
+                    "brand": "Panasonic",
+                    "size": "58 inches",
+                    "resolution": "4K UHD",
+                    "smart": "Yes"
+                }
+            },
+            {
+                "name": "Philips 6700 Series",
+                "description": "Philips 43-inch 4K UHD LED Smart TV with Ambilight",
+                "price": 449.99,
+                "attributes": {
+                    "brand": "Philips",
+                    "size": "43 inches",
+                    "resolution": "4K UHD",
+                    "smart": "Yes"
+                }
+            },
+            {
+                "name": "Sharp Aquos",
+                "description": "Sharp 65-inch 4K UHD Smart LED TV",
+                "price": 799.99,
+                "attributes": {
+                    "brand": "Sharp",
+                    "size": "65 inches",
+                    "resolution": "4K UHD",
+                    "smart": "Yes"
+                }
+            },
+            {
+                "name": "JVC Fire TV",
+                "description": "JVC 55-inch 4K UHD LED Fire TV Edition",
+                "price": 599.99,
+                "attributes": {
+                    "brand": "JVC",
+                    "size": "55 inches",
+                    "resolution": "4K UHD",
+                    "smart": "Yes"
+                }
+            },
+            {
+                "name": "Samsung The Frame",
+                "description": "Samsung 65-inch 4K UHD QLED Smart TV with Art Mode",
+                "price": 1799.99,
+                "attributes": {
+                    "brand": "Samsung",
+                    "size": "65 inches",
+                    "resolution": "4K UHD",
+                    "smart": "Yes"
+                }
+            },
+            {
+                "name": "    NanoCell 90 Series",
+                "description": "LG 55-inch 4K UHD Smart TV with NanoCell Display",
+                "price": 1099.99,
+                "attributes": {
+                    "brand": "LG",
+                    "size": "55 inches",
+                    "resolution": "4K UHD",
+                    "smart": "Yes"
+                }
+            },
+            {
+                "name": "Sony A8H OLED",
+                "description": "Sony 65-inch 4K UHD Smart OLED TV",
+                "price": 2199.99,
+                "attributes": {
+                    "brand": "Sony",
+                    "size": "65 inches",
+                    "resolution": "4K UHD",
+                    "smart": "Yes"
+                }
+            },
+            {
+                "name": "TCL 5-Series",
+                "description": "TCL 50-inch 4K UHD Roku Smart TV",
+                "price": 499.99,
+                "attributes": {
+                    "brand": "TCL",
+                    "size": "50 inches",
+                    "resolution": "4K UHD",
+                    "smart": "Yes"
+                }
+            },
+            {
+                "name": "Vizio V-Series",
+                "description": "Vizio 43-inch 4K UHD Smart TV with Vizio SmartCast",
+                "price": 329.99,
+                "attributes": {
+                    "brand": "Vizio",
+                    "size": "43 inches",
+                    "resolution": "4K UHD",
+                    "smart": "Yes"
+                }
+            },
+            {
+                "name": "Hisense U8G",
+                "description": "Hisense 55-inch 4K UHD Android Smart TV",
+                "price": 849.99,
+                "attributes": {
+                    "brand": "Hisense",
+                    "size": "55 inches",
+                    "resolution": "4K UHD",
+                    "smart": "Yes"
+                }
+            },
+            {
+                "name": "Panasonic GX800",
+                "description": "Panasonic 49-inch 4K UHD Smart TV with HDR10+",
+                "price": 799.99,
+                "attributes": {
+                    "brand": "Panasonic",
+                    "size": "49 inches",
+                    "resolution": "4K UHD",
+                    "smart": "Yes"
+                }
+            },
+            {
+                "name": "Philips 7300 Series",
+                "description": "Philips 50-inch 4K UHD LED Smart TV",
+                "price": 599.99,
+                "attributes": {
+                    "brand": "Philips",
+                    "size": "50 inches",
+                    "resolution": "4K UHD",
+                    "smart": "Yes"
+                }
+            },
+            {
+                "name": "Sharp N7000U",
+                "description": "Sharp 55-inch 4K UHD Smart TV with HDR",
+                "price": 699.99,
+                "attributes": {
+                    "brand": "Sharp",
+                    "size": "55 inches",
+                    "resolution": "4K UHD",
+                    "smart": "Yes"
+                }
+            },
+            {
+                "name": "JVC Elite",
+                "description": "JVC 70-inch 4K UHD LED Smart TV",
+                "price": 1199.99,
+                "attributes": {
+                    "brand": "JVC",
+                    "size": "70 inches",
+                    "resolution": "4K UHD",
+                    "smart": "Yes"
+                }
+            }
+        ]
+    },
+    {
+        "category": "Large Appliances",
+        "products": [
+            {
+                "name": "Samsung French Door Refrigerator",
+                "description": "Samsung 28 cu. ft. French Door Refrigerator with CoolSelect Pantry",
+                "price": 2799.99,
+                "attributes": {
+                    "brand": "Samsung",
+                    "capacity": "28 cu. ft.",
+                    "color": "Stainless Steel",
+                    "type": "French Door"
+                }
+            },
+            {
+                "name": "LG Front Load Washer",
+                "description": "LG 4.5 cu. ft. Ultra Large Capacity Front Load Washer with Steam",
+                "price": 1099.99,
+                "attributes": {
+                    "brand": "LG",
+                    "capacity": "4.5 cu. ft.",
+                    "color": "White",
+                    "type": "Front Load"
+                }
+            },
+            {
+                "name": "Whirlpool Electric Dryer",
+                "description": "Whirlpool 7.4 cu. ft. Electric Dryer with AccuDry Sensor Drying System",
+                "price": 899.99,
+                "attributes": {
+                    "brand": "Whirlpool",
+                    "capacity": "7.4 cu. ft.",
+                    "color": "White",
+                    "type": "Electric"
+                }
+            },
+            {
+                "name": "GE Top Load Washer",
+                "description": "GE 4.6 cu. ft. Top Load Washer with Stainless Steel Basket",
+                "price": 699.99,
+                "attributes": {
+                    "brand": "GE",
+                    "capacity": "4.6 cu. ft.",
+                    "color": "White",
+                    "type": "Top Load"
+                }
+            },
+            {
+                "name": "Bosch Dishwasher",
+                "description": "Bosch 24-inch Dishwasher with PrecisionWash and Home Connect",
+                "price": 1099.99,
+                "attributes": {
+                    "brand": "Bosch",
+                    "capacity": "24 inches",
+                    "color": "Stainless Steel",
+                    "type": "Built-In"
+                }
+            },
+            {
+                "name": "Frigidaire Gas Range",
+                "description": "Frigidaire 30-inch Gas Range with Quick Boil and Self-Clean",
+                "price": 799.99,
+                "attributes": {
+                    "brand": "Frigidaire",
+                    "capacity": "30 inches",
+                    "color": "Stainless Steel",
+                    "type": "Gas"
+                }
+            },
+            {
+                "name": "KitchenAid Double Wall Oven",
+                "description": "KitchenAid 30-inch Double Wall Oven with Even-Heat True Convection",
+                "price": 2999.99,
+                "attributes": {
+                    "brand": "KitchenAid",
+                    "capacity": "30 inches",
+                    "color": "Stainless Steel",
+                    "type": "Electric"
+                }
+            },
+            {
+                "name": "Maytag Top Freezer Refrigerator",
+                "description": "Maytag 21 cu. ft. Top Freezer Refrigerator with PowerCold Feature",
+                "price": 999.99,
+                "attributes": {
+                    "brand": "Maytag",
+                    "capacity": "21 cu. ft.",
+                    "color": "White",
+                    "type": "Top Freezer"
+                }
+            },
+            {
+                "name": "Samsung Slide-In Electric Range",
+                "description": "Samsung 30-inch Slide-In Electric Range with Air Fry and Convection",
+                "price": 1399.99,
+                "attributes": {
+                    "brand": "Samsung",
+                    "capacity": "30 inches",
+                    "color": "Stainless Steel",
+                    "type": "Electric"
+                }
+            },
+            {
+                "name": "LG Smart Washer and Dryer Combo",
+                "description": "LG 4.5 cu. ft. Smart Front Load Washer and 7.4 cu. ft. Dryer Combo",
+                "price": 1899.99,
+                "attributes": {
+                    "brand": "LG",
+                    "capacity": "4.5 cu. ft. washer, 7.4 cu. ft. dryer",
+                    "color": "Graphite Steel",
+                    "type": "Combo"
+                }
+            },
+            {
+                "name": "Kenmore Chest Freezer",
+                "description": "Kenmore 14.8 cu. ft. Chest Freezer with Manual Defrost",
+                "price": 699.99,
+                "attributes": {
+                    "brand": "Kenmore",
+                    "capacity": "14.8 cu. ft.",
+                    "color": "White",
+                    "type": "Chest Freezer"
+                }
+            },
+            {
+                "name": "Whirlpool Over-the-Range Microwave",
+                "description": "Whirlpool 1.9 cu. ft. Over-the-Range Microwave with Sensor Cooking",
+                "price": 399.99,
+                "attributes": {
+                    "brand": "Whirlpool",
+                    "capacity": "1.9 cu. ft.",
+                    "color": "Black Stainless",
+                    "type": "Over-the-Range"
+                }
+            },
+            {
+                "name": "GE Side-by-Side Refrigerator",
+                "description": "GE 25.3 cu. ft. Side-by-Side Refrigerator with Ice Maker",
+                "price": 1799.99,
+                "attributes": {
+                    "brand": "GE",
+                    "capacity": "25.3 cu. ft.",
+                    "color": "Slate",
+                    "type": "Side-by-Side"
+                }
+            },
+            {
+                "name": "Bosch Front Load Washer",
+                "description": "Bosch 2.2 cu. ft. Front Load Washer with SpeedPerfect",
+                "price": 999.99,
+                "attributes": {
+                    "brand": "Bosch",
+                    "capacity": "2.2 cu. ft.",
+                    "color": "White",
+                    "type": "Front Load"
+                }
+            },
+            {
+                "name": "Frigidaire Electric Dryer",
+                "description": "Frigidaire 6.7 cu. ft. Electric Dryer with 10 Dry Cycles",
+                "price": 649.99,
+                "attributes": {
+                    "brand": "Frigidaire",
+                    "capacity": "6.7 cu. ft.",
+                    "color": "White",
+                    "type": "Electric"
+                }
+            },
+            {
+                "name": "KitchenAid French Door Refrigerator",
+                "description": "KitchenAid 25.8 cu. ft. French Door Refrigerator with External Water Dispenser",
+                "price": 3099.99,
+                "attributes": {
+                    "brand": "KitchenAid",
+                    "capacity": "25.8 cu. ft.",
+                    "color": "Stainless Steel",
+                    "type": "French Door"
+                }
+            },
+            {
+                "name": "Maytag Front Load Washer",
+                "description": "Maytag 4.8 cu. ft. Front Load Washer with Extra Power Button",
+                "price": 1199.99,
+                "attributes": {
+                    "brand": "Maytag",
+                    "capacity": "4.8 cu. ft.",
+                    "color": "Metallic Slate",
+                    "type": "Front Load"
+                }
+            },
+            {
+                "name": "Samsung Electric Dryer",
+                "description": "Samsung 7.5 cu. ft. Electric Dryer with Steam Sanitize+",
+                "price": 999.99,
+                "attributes": {
+                    "brand": "Samsung",
+                    "capacity": "7.5 cu. ft.",
+                    "color": "Platinum",
+                    "type": "Electric"
+                }
+            },
+            {
+                "name": "LG Side-by-Side Refrigerator",
+                "description": "LG 26.2 cu. ft. Side-by-Side Refrigerator with Door-in-Door",
+                "price": 2299.99,
+                "attributes": {
+                    "brand": "LG",
+                    "capacity": "26.2 cu. ft.",
+                    "color": "Stainless Steel",
+                    "type": "Side-by-Side"
+                }
+            },
+            {
+                "name": "Whirlpool Chest Freezer",
+                "description": "Whirlpool 15 cu. ft. Chest Freezer with Interior Lighting",
+                "price": 749.99,
+                "attributes": {
+                    "brand": "Whirlpool",
+                    "capacity": "15 cu. ft.",
+                    "color": "White",
+                    "type": "Chest Freezer"
+                }
+            }
+        ]
+    },
+    {
+        "category": "Small Appliances",
+        "products": [
+            {
+                "name": "Cuisinart Coffee Maker",
+                "description": "Cuisinart 14-Cup Programmable Coffee Maker with Glass Carafe",
+                "price": 79.99,
+                "attributes": {
+                    "brand": "Cuisinart",
+                    "capacity": "14 Cups",
+                    "color": "Black",
+                    "type": "Coffee Maker"
+                }
+            },
+            {
+                "name": "Dyson V11 Vacuum Cleaner",
+                "description": "Dyson V11 Torque Drive Cordless Vacuum Cleaner",
+                "price": 599.99,
+                "attributes": {
+                    "brand": "Dyson",
+                    "capacity": "0.2 Gallons",
+                    "color": "Nickel/Blue",
+                    "type": "Vacuum Cleaner"
+                }
+            },
+            {
+                "name": "Philips Air Fryer",
+                "description": "Philips Premium Digital Airfryer with Fat Removal Technology, 3 qt.",
+                "price": 299.99,
+                "attributes": {
+                    "brand": "Philips",
+                    "capacity": "3 Quart",
+                    "color": "Black",
+                    "type": "Air Fryer"
+                }
+            },
+            {
+                "name": "Hamilton Beach Slow Cooker",
+                "description": "Hamilton Beach Portable 6-Quart Set & Forget Digital Slow Cooker",
+                "price": 59.99,
+                "attributes": {
+                    "brand": "Hamilton Beach",
+                    "capacity": "6 Quart",
+                    "color": "Stainless Steel",
+                    "type": "Slow Cooker"
+                }
+            },
+            {
+                "name": "Black+Decker Iron",
+                "description": "Black+Decker Easy Steam Compact Iron, Nonstick Soleplate",
+                "price": 24.99,
+                "attributes": {
+                    "brand": "Black+Decker",
+                    "capacity": "1500 Watts",
+                    "color": "Turquoise",
+                    "type": "Iron"
+                }
+            },
+            {
+                "name": "Keurig K-Elite",
+                "description": "Keurig K-Elite Single Serve Coffee Maker with Iced Coffee Capability",
+                "price": 169.99,
+                "attributes": {
+                    "brand": "Keurig",
+                    "capacity": "75 oz",
+                    "color": "Brushed Silver",
+                    "type": "Coffee Maker"
+                }
+            },
+            {
+                "name": "Anova Sous Vide Precision Cooker",
+                "description": "Anova Culinary Sous Vide Precision Cooker with WiFi, 1000 Watts",
+                "price": 199.99,
+                "attributes": {
+                    "brand": "Anova",
+                    "capacity": "1000 Watts",
+                    "color": "Black",
+                    "type": "Sous Vide"
+                }
+            },
+            {
+                "name": "Honeywell Air Purifier",
+                "description": "Honeywell True HEPA Air Purifier, Allergen Remover, 465 sq. ft.",
+                "price": 229.99,
+                "attributes": {
+                    "brand": "Honeywell",
+                    "capacity": "465 sq. ft.",
+                    "color": "White",
+                    "type": "Air Purifier"
+                }
+            },
+            {
+                "name": "Shark Steam Mop",
+                "description": "Shark Genius Hard Floor Cleaning System Pocket Steam Mop",
+                "price": 99.99,
+                "attributes": {
+                    "brand": "Shark",
+                    "capacity": "220 ml",
+                    "color": "Burgundy/Gray",
+                    "type": "Steam Mop"
+                }
+            },
+            {
+                "name": "Breville Juice Fountain",
+                "description": "Breville Juice Fountain Plus Centrifugal Juicer, 850 Watts",
+                "price": 149.99,
+                "attributes": {
+                    "brand": "Breville",
+                    "capacity": "850 Watts",
+                    "color": "Brushed Stainless Steel",
+                    "type": "Juicer"
+                }
+            },
+            {
+                "name": "Crock-Pot Slow Cooker",
+                "description": "Crock-Pot 7-Quart Oval Manual Slow Cooker",
+                "price": 39.99,
+                "attributes": {
+                    "brand": "Crock-Pot",
+                    "capacity": "7 Quart",
+                    "color": "Stainless Steel",
+                    "type": "Slow Cooker"
+                }
+            }
+        ]
+    },
+    {
+        "category": "Kitchen Appliances",
+        "products": [
+            {
+                "name": "KitchenAid Stand Mixer",
+                "description": "KitchenAid Artisan Series 5-Quart Stand Mixer with Pouring Shield",
+                "price": 379.99,
+                "attributes": {
+                    "brand": "KitchenAid",
+                    "capacity": "5 Quart",
+                    "color": "Empire Red",
+                    "type": "Stand Mixer"
+                }
+            },
+            {
+                "name": "Breville Toaster Oven",
+                "description": "Breville Smart Oven Pro with Element IQ, 18.5 x 15.7 x 11.1 inches",
+                "price": 269.99,
+                "attributes": {
+                    "brand": "Breville",
+                    "capacity": "1.2 cu. ft.",
+                    "color": "Silver",
+                    "type": "Toaster Oven"
+                }
+            },
+            {
+                "name": "Cuisinart Food Processor",
+                "description": "Cuisinart 14-Cup Food Processor with Stainless Steel Blade",
+                "price": 199.99,
+                "attributes": {
+                    "brand": "Cuisinart",
+                    "capacity": "14 Cups",
+                    "color": "Brushed Stainless Steel",
+                    "type": "Food Processor"
+                }
+            },
+            {
+                "name": "Ninja Blender",
+                "description": "Ninja Professional Countertop Blender with 1100-Watt Base",
+                "price": 99.99,
+                "attributes": {
+                    "brand": "Ninja",
+                    "capacity": "72 oz",
+                    "color": "Black",
+                    "type": "Blender"
+                }
+            },
+            {
+                "name": "Instant Pot Duo",
+                "description": "Instant Pot Duo 7-in-1 Electric Pressure Cooker, 6 Quart",
+                "price": 89.99,
+                "attributes": {
+                    "brand": "Instant Pot",
+                    "capacity": "6 Quart",
+                    "color": "Stainless Steel",
+                    "type": "Pressure Cooker"
+                }
+            },
+            {
+                "name": "Black+Decker Toaster",
+                "description": "Black+Decker 4-Slice Toaster with Extra-Wide Slots",
+                "price": 39.99,
+                "attributes": {
+                    "brand": "Black+Decker",
+                    "capacity": "4 Slices",
+                    "color": "Silver",
+                    "type": "Toaster"
+                }
+            },
+            {
+                "name": "Oster Juicer",
+                "description": "Oster Juice Extractor, 1000-Watt, 2 Speed Settings",
+                "price": 89.99,
+                "attributes": {
+                    "brand": "Oster",
+                    "capacity": "1000 Watts",
+                    "color": "Black",
+                    "type": "Juicer"
+                }
+            },
+            {
+                "name": "Panasonic Microwave Oven",
+                "description": "Panasonic Microwave Oven with Inverter Technology, 1.2 cu. ft.",
+                "price": 159.99,
+                "attributes": {
+                    "brand": "Panasonic",
+                    "capacity": "1.2 cu. ft.",
+                    "color": "Black",
+                    "type": "Microwave Oven"
+                }
+            },
+            {
+                "name": "De'Longhi Espresso Machine",
+                "description": "De'Longhi 15 Bar Pump Espresso and Cappuccino Maker",
+                "price": 199.99,
+                "attributes": {
+                    "brand": "De'Longhi",
+                    "capacity": "15 Bar",
+                    "color": "Black",
+                    "type": "Espresso Machine"
+                }
+            },
+            {
+                "name": "Vitamix Blender",
+                "description": "Vitamix Explorian Blender, Professional-Grade, 64 oz.",
+                "price": 349.99,
+                "attributes": {
+                    "brand": "Vitamix",
+                    "capacity": "64 oz",
+                    "color": "Black",
+                    "type": "Blender"
+                }
+            },
+            {
+                "name": "Hamilton Beach Electric Kettle",
+                "description": "Hamilton Beach Electric Kettle, 1.7 Liter, Cordless",
+                "price": 29.99,
+                "attributes": {
+                    "brand": "Hamilton Beach",
+                    "capacity": "1.7 Liter",
+                    "color": "Stainless Steel",
+                    "type": "Electric Kettle"
+                }
+            },
+            {
+                "name": "Ninja Foodi Grill",
+                "description": "Ninja Foodi 5-in-1 Indoor Grill with Air Fry, Roast, Bake, and Dehydrate",
+                "price": 229.99,
+                "attributes": {
+                    "brand": "Ninja",
+                    "capacity": "4 Quart",
+                    "color": "Black",
+                    "type": "Indoor Grill"
+                }
+            },
+            {
+                "name": "KitchenAid Food Chopper",
+                "description": "KitchenAid 3.5-Cup Mini Food Processor, KFC3516",
+                "price": 49.99,
+                "attributes": {
+                    "brand": "KitchenAid",
+                    "capacity": "3.5 Cups",
+                    "color": "Empire Red",
+                    "type": "Food Chopper"
+                }
+            },
+            {
+                "name": "Cuisinart Griddler",
+                "description": "Cuisinart 5-in-1 Griddler, GR-4N",
+                "price": 99.99,
+                "attributes": {
+                    "brand": "Cuisinart",
+                    "capacity": "5-in-1",
+                    "color": "Silver",
+                    "type": "Griddler"
+                }
+            }
+        ]
+    },
+    {
+        "category": "Laptops & PCs",
+        "products": [
+            {
+                "name": "Apple MacBook Pro",
+                "description": "Apple MacBook Pro 13-inch with M1 chip, 8GB RAM, 256GB SSD",
+                "price": 1299.99,
+                "attributes": {
+                    "brand": "Apple",
+                    "screen_size": "13 inches",
+                    "ram": "8GB",
+                    "storage": "256GB SSD"
+                }
+            },
+            {
+                "name": "Dell XPS 13",
+                "description": "Dell XPS 13 with Intel Core i7, 16GB RAM, 512GB SSD",
+                "price": 1499.99,
+                "attributes": {
+                    "brand": "Dell",
+                    "screen_size": "13.3 inches",
+                    "ram": "16GB",
+                    "storage": "512GB SSD"
+                }
+            },
+            {
+                "name": "HP Spectre x360",
+                "description": "HP Spectre x360 Convertible Laptop with Intel Core i7, 16GB RAM, 1TB SSD",
+                "price": 1599.99,
+                "attributes": {
+                    "brand": "HP",
+                    "screen_size": "13.3 inches",
+                    "ram": "16GB",
+                    "storage": "1TB SSD"
+                }
+            },
+            {
+                "name": "Microsoft Surface Laptop 4",
+                "description": "Microsoft Surface Laptop 4 with AMD Ryzen 5, 8GB RAM, 256GB SSD",
+                "price": 999.99,
+                "attributes": {
+                    "brand": "Microsoft",
+                    "screen_size": "13.5 inches",
+                    "ram": "8GB",
+                    "storage": "256GB SSD"
+                }
+            },
+            {
+                "name": "Lenovo ThinkPad X1 Carbon",
+                "description": "Lenovo ThinkPad X1 Carbon with Intel Core i7, 16GB RAM, 1TB SSD",
+                "price": 1799.99,
+                "attributes": {
+                    "brand": "Lenovo",
+                    "screen_size": "14 inches",
+                    "ram": "16GB",
+                    "storage": "1TB SSD"
+                }
+            },
+            {
+                "name": "Asus ZenBook 13",
+                "description": "Asus ZenBook 13 with Intel Core i5, 8GB RAM, 512GB SSD",
+                "price": 899.99,
+                "attributes": {
+                    "brand": "Asus",
+                    "screen_size": "13.3 inches",
+                    "ram": "8GB",
+                    "storage": "512GB SSD"
+                }
+            },
+            {
+                "name": "Acer Swift 3",
+                "description": "Acer Swift 3 with AMD Ryzen 7, 8GB RAM, 512GB SSD",
+                "price": 749.99,
+                "attributes": {
+                    "brand": "Acer",
+                    "screen_size": "14 inches",
+                    "ram": "8GB",
+                    "storage": "512GB SSD"
+                }
+            },
+            {
+                "name": "Razer Blade 15",
+                "description": "Razer Blade 15 Gaming Laptop with Intel Core i7, 16GB RAM, 512GB SSD, RTX 3070",
+                "price": 2199.99,
+                "attributes": {
+                    "brand": "Razer",
+                    "screen_size": "15.6 inches",
+                    "ram": "16GB",
+                    "storage": "512GB SSD",
+                    "gpu": "NVIDIA GeForce RTX 3070"
+                }
+            },
+            {
+                "name": "MSI GS66 Stealth",
+                "description": "MSI GS66 Stealth Gaming Laptop with Intel Core i7, 16GB RAM, 1TB SSD, RTX 3060",
+                "price": 1999.99,
+                "attributes": {
+                    "brand": "MSI",
+                    "screen_size": "15.6 inches",
+                    "ram": "16GB",
+                    "storage": "1TB SSD",
+                    "gpu": "NVIDIA GeForce RTX 3060"
+                }
+            },
+            {
+                "name": "Apple iMac",
+                "description": "Apple iMac 24-inch with M1 chip, 8GB RAM, 256GB SSD",
+                "price": 1299.99,
+                "attributes": {
+                    "brand": "Apple",
+                    "screen_size": "24 inches",
+                    "ram": "8GB",
+                    "storage": "256GB SSD"
+                }
+            },
+            {
+                "name": "HP Omen 15",
+                "description": "HP Omen 15 Gaming Laptop with AMD Ryzen 7, 16GB RAM, 512GB SSD, RTX 2060",
+                "price": 1499.99,
+                "attributes": {
+                    "brand": "HP",
+                    "screen_size": "15.6 inches",
+                    "ram": "16GB",
+                    "storage": "512GB SSD",
+                    "gpu": "NVIDIA GeForce RTX 2060"
+                }
+            },
+            {
+                "name": "Dell Inspiron 15",
+                "description": "Dell Inspiron 15 with Intel Core i5, 8GB RAM, 512GB SSD",
+                "price": 699.99,
+                "attributes": {
+                    "brand": "Dell",
+                    "screen_size": "15.6 inches",
+                    "ram": "8GB",
+                    "storage": "512GB SSD"
+                }
+            },
+            {
+                "name": "Lenovo Yoga C740",
+                "description": "Lenovo Yoga C740 2-in-1 Laptop with Intel Core i5, 8GB RAM, 256GB SSD",
+                "price": 799.99,
+                "attributes": {
+                    "brand": "Lenovo",
+                    "screen_size": "14 inches",
+                    "ram": "8GB",
+                    "storage": "256GB SSD"
+                }
+            },
+            {
+                "name": "Asus ROG Zephyrus G14",
+                "description": "Asus ROG Zephyrus G14 Gaming Laptop with AMD Ryzen 9, 16GB RAM, 1TB SSD, RTX 3060",
+                "price": 1899.99,
+                "attributes": {
+                    "brand": "Asus",
+                    "screen_size": "14 inches",
+                    "ram": "16GB",
+                    "storage": "1TB SSD",
+                    "gpu": "NVIDIA GeForce RTX 3060"
+                }
+            },
+            {
+                "name": "Acer Predator Helios 300",
+                "description": "Acer Predator Helios 300 Gaming Laptop with Intel Core i7, 16GB RAM, 512GB SSD, RTX 3060",
+                "price": 1499.99,
+                "attributes": {
+                    "brand": "Acer",
+                    "screen_size": "15.6 inches",
+                    "ram": "16GB",
+                    "storage": "512GB SSD",
+                    "gpu": "NVIDIA GeForce RTX 3060"
+                }
+            },
+            {
+                "name": "HP Envy x360",
+                "description": "HP Envy x360 2-in-1 Laptop with AMD Ryzen 5, 8GB RAM, 256GB SSD",
+                "price": 849.99,
+                "attributes": {
+                    "brand": "HP",
+                    "screen_size": "15.6 inches",
+                    "ram": "8GB",
+                    "storage": "256GB SSD"
+                }
+            },
+            {
+                "name": "Microsoft Surface Pro 7",
+                "description": "Microsoft Surface Pro 7 with Intel Core i5, 8GB RAM, 128GB SSD",
+                "price": 749.99,
+                "attributes": {
+                    "brand": "Microsoft",
+                    "screen_size": "12.3 inches",
+                    "ram": "8GB",
+                    "storage": "128GB SSD"
+                }
+            },
+            {
+                "name": "Apple MacBook Air",
+                "description": "Apple MacBook Air with M1 chip, 8GB RAM, 256GB SSD",
+                "price": 999.99,
+                "attributes": {
+                    "brand": "Apple",
+                    "screen_size": "13.3 inches",
+                    "ram": "8GB",
+                    "storage": "256GB SSD"
+                }
+            },
+            {
+                "name": "Dell G5 15",
+                "description": "Dell G5 15 Gaming Laptop with Intel Core i7, 16GB RAM, 512GB SSD, GTX 1660 Ti",
+                "price": 1199.99,
+                "attributes": {
+                    "brand": "Dell",
+                    "screen_size": "15.6 inches",
+                    "ram": "16GB",
+                    "storage": "512GB SSD",
+                    "gpu": "NVIDIA GeForce GTX 1660 Ti"
+                }
+            },
+            {
+                "name": "HP Pavilion Gaming Desktop",
+                "description": "HP Pavilion Gaming Desktop with AMD Ryzen 5, 8GB RAM, 512GB SSD, GTX 1650",
+                "price": 799.99,
+                "attributes": {
+                    "brand": "HP",
+                    "ram": "8GB",
+                    "storage": "512GB SSD",
+                    "gpu": "NVIDIA GeForce GTX 1650"
+                }
+            }
+        ]
+    },
+    {
+        "category": "Health & Beauty",
+        "products": [
+            {
+                "name": "Philips Sonicare Toothbrush",
+                "description": "Philips Sonicare ProtectiveClean 6100 Rechargeable Electric Toothbrush",
+                "price": 129.99,
+                "attributes": {
+                    "brand": "Philips",
+                    "type": "Electric Toothbrush",
+                    "features": "Rechargeable, Pressure Sensor, 3 Modes"
+                }
+            },
+            {
+                "name": "Dyson Supersonic Hair Dryer",
+                "description": "Dyson Supersonic Hair Dryer with Intelligent Heat Control",
+                "price": 399.99,
+                "attributes": {
+                    "brand": "Dyson",
+                    "type": "Hair Dryer",
+                    "features": "Intelligent Heat Control, Fast Drying"
+                }
+            },
+            {
+                "name": "Braun Electric Shaver",
+                "description": "Braun Series 7 Electric Shaver for Men with Precision Trimmer",
+                "price": 199.99,
+                "attributes": {
+                    "brand": "Braun",
+                    "type": "Electric Shaver",
+                    "features": "Precision Trimmer, Wet & Dry"
+                }
+            },
+            {
+                "name": "Neutrogena Face Wash",
+                "description": "Neutrogena Oil-Free Acne Wash, 6 oz",
+                "price": 8.99,
+                "attributes": {
+                    "brand": "Neutrogena",
+                    "type": "Face Wash",
+                    "features": "Oil-Free, Acne Treatment"
+                }
+            },
+            {
+                "name": "Olay Regenerist Cream",
+                "description": "Olay Regenerist Micro-Sculpting Cream, 1.7 oz",
+                "price": 24.99,
+                "attributes": {
+                    "brand": "Olay",
+                    "type": "Face Cream",
+                    "features": "Anti-Aging, Hydrating"
+                }
+            },
+            {
+                "name": "Oral-B Electric Toothbrush",
+                "description": "Oral-B Pro 1000 CrossAction Electric Toothbrush",
+                "price": 49.99,
+                "attributes": {
+                    "brand": "Oral-B",
+                    "type": "Electric Toothbrush",
+                    "features": "Rechargeable, CrossAction Brush Head"
+                }
+            },
+            {
+                "name": "Revlon Hair Dryer Brush",
+                "description": "Revlon One-Step Hair Dryer & Volumizer Hot Air Brush",
+                "price": 59.99,
+                "attributes": {
+                    "brand": "Revlon",
+                    "type": "Hair Dryer Brush",
+                    "features": "Hot Air Brush, Volumizer"
+                }
+            },
+            {
+                "name": "Crest 3D Whitestrips",
+                "description": "Crest 3D White Professional Effects Teeth Whitening Strips",
+                "price": 44.99,
+                "attributes": {
+                    "brand": "Crest",
+                    "type": "Teeth Whitening Strips",
+                    "features": "Professional Effects, Enamel Safe"
+                }
+            },
+            {
+                "name": "Nivea Body Lotion",
+                "description": "Nivea Essentially Enriched Body Lotion, 16.9 oz",
+                "price": 7.99,
+                "attributes": {
+                    "brand": "Nivea",
+                    "type": "Body Lotion",
+                    "features": "Deep Moisture, Dry Skin"
+                }
+            },
+            {
+                "name": "Remington Hair Straightener",
+                "description": "Remington S5500 1-inch Anti-Static Flat Iron",
+                "price": 19.99,
+                "attributes": {
+                    "brand": "Remington",
+                    "type": "Hair Straightener",
+                    "features": "Anti-Static, 1-inch Flat Iron"
+                }
+            },
+            {
+                "name": "Gillette Razor",
+                "description": "Gillette Fusion5 ProGlide Men's Razor with FlexBall Handle Technology",
+                "price": 12.99,
+                "attributes": {
+                    "brand": "Gillette",
+                    "type": "Razor",
+                    "features": "FlexBall Handle, 5 Blades"
+                }
+            },
+            {
+                "name": "Aveeno Daily Moisturizer",
+                "description": "Aveeno Daily Moisturizing Lotion with Oat, 18 oz",
+                "price": 9.99,
+                "attributes": {
+                    "brand": "Aveeno",
+                    "type": "Body Lotion",
+                    "features": "Daily Moisturizing, Oat"
+                }
+            },
+            {
+                "name": "Panasonic Nose Hair Trimmer",
+                "description": "Panasonic ER-GN30-K Nose Ear Hair Trimmer",
+                "price": 14.99,
+                "attributes": {
+                    "brand": "Panasonic",
+                    "type": "Nose Hair Trimmer",
+                    "features": "Wet & Dry, Dual-Edge Blades"
+                }
+            },
+            {
+                "name": "L'Oreal Paris Shampoo",
+                "description": "L'Oreal Paris Elvive Total Repair 5 Repairing Shampoo, 28 oz",
+                "price": 6.99,
+                "attributes": {
+                    "brand": "L'Oreal",
+                    "type": "Shampoo",
+                    "features": "Repairing, 5 Problems 1 Solution"
+                }
+            },
+            {
+                "name": "Conair Hair Dryer",
+                "description": "Conair 1875 Watt Ionic Ceramic Hair Dryer",
+                "price": 29.99,
+                "attributes": {
+                    "brand": "Conair",
+                    "type": "Hair Dryer",
+                    "features": "Ionic, Ceramic, 1875 Watt"
+                }
+            },
+            {
+                "name": "Dove Body Wash",
+                "description": "Dove Deep Moisture Body Wash, 22 oz",
+                "price": 6.99,
+                "attributes": {
+                    "brand": "Dove",
+                    "type": "Body Wash",
+                    "features": "Deep Moisture, Sulfate-Free"
+                }
+            },
+            {
+                "name": "Burt's Bees Lip Balm",
+                "description": "Burt's Bees 100% Natural Moisturizing Lip Balm, 4 Pack",
+                "price": 9.99,
+                "attributes": {
+                    "brand": "Burt's Bees",
+                    "type": "Lip Balm",
+                    "features": "100% Natural, Moisturizing"
+                }
+            },
+            {
+                "name": "Schick Hydro Silk Razor",
+                "description": "Schick Hydro Silk Women's Razor with 5 Blades",
+                "price": 9.99,
+                "attributes": {
+                    "brand": "Schick",
+                    "type": "Razor",
+                    "features": "Hydro Silk, 5 Blades"
+                }
+            },
+            {
+                "name": "Vaseline Healing Jelly",
+                "description": "Vaseline 100% Pure Petroleum Jelly, 13 oz",
+                "price": 4.99,
+                "attributes": {
+                    "brand": "Vaseline",
+                    "type": "Petroleum Jelly",
+                    "features": "Healing, Moisturizing"
+                }
+            },
+            {
+                "name": "Cetaphil Gentle Cleanser",
+                "description": "Cetaphil Gentle Skin Cleanser for All Skin Types, 20 oz",
+                "price": 11.99,
+                "attributes": {
+                    "brand": "Cetaphil",
+                    "type": "Skin Cleanser",
+                    "features": "Gentle, For All Skin Types"
+                }
+            }
+        ]
+    },
+    {
+        "category": "Electronics",
+        "products": [
+            {
+                "name": "Sony WH-1000XM4",
+                "description": "Sony WH-1000XM4 Wireless Noise-Cancelling Over-Ear Headphones",
+                "price": 349.99,
+                "attributes": {
+                    "brand": "Sony",
+                    "type": "Headphones",
+                    "features": "Wireless, Noise-Cancelling, Over-Ear"
+                }
+            },
+            {
+                "name": "Apple AirPods Pro",
+                "description": "Apple AirPods Pro with Active Noise Cancellation",
+                "price": 249.99,
+                "attributes": {
+                    "brand": "Apple",
+                    "type": "Earbuds",
+                    "features": "Wireless, Noise-Cancelling, In-Ear"
+                }
+            },
+            {
+                "name": "Samsung Galaxy Watch 3",
+                "description": "Samsung Galaxy Watch 3 Smartwatch with Fitness Tracking",
+                "price": 399.99,
+                "attributes": {
+                    "brand": "Samsung",
+                    "type": "Smartwatch",
+                    "features": "Fitness Tracking, GPS, Heart Rate Monitor"
+                }
+            },
+            {
+                "name": "Canon EOS Rebel T7",
+                "description": "Canon EOS Rebel T7 DSLR Camera with 18-55mm Lens",
+                "price": 449.99,
+                "attributes": {
+                    "brand": "Canon",
+                    "type": "Camera",
+                    "features": "DSLR, 24.1MP, Wi-Fi"
+                }
+            },
+            {
+                "name": "Fitbit Charge 4",
+                "description": "Fitbit Charge 4 Fitness and Activity Tracker with Built-in GPS",
+                "price": 149.99,
+                "attributes": {
+                    "brand": "Fitbit",
+                    "type": "Fitness Tracker",
+                    "features": "GPS, Heart Rate Monitor, Sleep Tracking"
+                }
+            },
+            {
+                "name": "JBL Flip 5",
+                "description": "JBL Flip 5 Waterproof Portable Bluetooth Speaker",
+                "price": 119.99,
+                "attributes": {
+                    "brand": "JBL",
+                    "type": "Bluetooth Speaker",
+                    "features": "Portable, Waterproof, Bluetooth"
+                }
+            },
+            {
+                "name": "Amazon Echo Dot",
+                "description": "Amazon Echo Dot (4th Gen) Smart Speaker with Alexa",
+                "price": 49.99,
+                "attributes": {
+                    "brand": "Amazon",
+                    "type": "Smart Speaker",
+                    "features": "Alexa, Voice Control, Smart Home"
+                }
+            },
+            {
+                "name": "GoPro HERO9 Black",
+                "description": "GoPro HERO9 Black Waterproof Action Camera",
+                "price": 399.99,
+                "attributes": {
+                    "brand": "GoPro",
+                    "type": "Action Camera",
+                    "features": "Waterproof, 5K Video, 20MP Photos"
+                }
+            },
+            {
+                "name": "Nintendo Switch",
+                "description": "Nintendo Switch with Neon Blue and Neon Red Joy-Con",
+                "price": 299.99,
+                "attributes": {
+                    "brand": "Nintendo",
+                    "type": "Gaming Console",
+                    "features": "Portable, TV Dock, Joy-Con Controllers"
+                }
+            },
+            {
+                "name": "Bose SoundLink Revolve",
+                "description": "Bose SoundLink Revolve Portable Bluetooth Speaker",
+                "price": 199.99,
+                "attributes": {
+                    "brand": "Bose",
+                    "type": "Bluetooth Speaker",
+                    "features": "Portable, 360-Degree Sound, Bluetooth"
+                }
+            },
+            {
+                "name": "Kindle Paperwhite",
+                "description": "Amazon Kindle Paperwhite \u00e2\u20ac\u201c Now Waterproof with 2x the Storage",
+                "price": 129.99,
+                "attributes": {
+                    "brand": "Amazon",
+                    "type": "E-Reader",
+                    "features": "Waterproof, 8GB Storage, Adjustable Light"
+                }
+            },
+            {
+                "name": "Logitech MX Master 3",
+                "description": "Logitech MX Master 3 Advanced Wireless Mouse",
+                "price": 99.99,
+                "attributes": {
+                    "brand": "Logitech",
+                    "type": "Mouse",
+                    "features": "Wireless, Ergonomic, Customizable"
+                }
+            },
+            {
+                "name": "Roku Streaming Stick+",
+                "description": "Roku Streaming Stick+ | HD/4K/HDR Streaming Device",
+                "price": 49.99,
+                "attributes": {
+                    "brand": "Roku",
+                    "type": "Streaming Device",
+                    "features": "4K HDR, Voice Remote, TV Control"
+                }
+            },
+            {
+                "name": "Samsung Galaxy Tab S7",
+                "description": "Samsung Galaxy Tab S7 Wi-Fi Tablet, 128GB",
+                "price": 649.99,
+                "attributes": {
+                    "brand": "Samsung",
+                    "type": "Tablet",
+                    "features": "11-inch, 128GB, S Pen Included"
+                }
+            },
+            {
+                "name": "Sony PlayStation 5",
+                "description": "Sony PlayStation 5 Console",
+                "price": 499.99,
+                "attributes": {
+                    "brand": "Sony",
+                    "type": "Gaming Console",
+                    "features": "Ultra HD Blu-ray, 825GB SSD, DualSense Controller"
+                }
+            },
+            {
+                "name": "Dell UltraSharp Monitor",
+                "description": "Dell UltraSharp U2720Q 27-Inch 4K USB-C Monitor",
+                "price": 699.99,
+                "attributes": {
+                    "brand": "Dell",
+                    "type": "Monitor",
+                    "features": "4K UHD, USB-C, IPS"
+                }
+            },
+            {
+                "name": "Google Nest Thermostat",
+                "description": "Google Nest Thermostat \u00e2\u20ac\u201c Smart Thermostat for Home",
+                "price": 129.99,
+                "attributes": {
+                    "brand": "Google",
+                    "type": "Smart Thermostat",
+                    "features": "Wi-Fi, Programmable, Energy Saving"
+                }
+            },
+            {
+                "name": "Apple iPad Pro",
+                "description": "Apple iPad Pro 12.9-inch, Wi-Fi, 128GB",
+                "price": 999.99,
+                "attributes": {
+                    "brand": "Apple",
+                    "type": "Tablet",
+                    "features": "12.9-inch, 128GB, Face ID"
+                }
+            },
+            {
+                "name": "Ring Video Doorbell 3",
+                "description": "Ring Video Doorbell 3 with Enhanced Wi-Fi and Improved Motion Detection",
+                "price": 199.99,
+                "attributes": {
+                    "brand": "Ring",
+                    "type": "Video Doorbell",
+                    "features": "Wi-Fi, Motion Detection, 1080p HD"
+                }
+            },
+            {
+                "name": "Sonos One SL",
+                "description": "Sonos One SL - Microphone-Free Smart Speaker",
+                "price": 179.99,
+                "attributes": {
+                    "brand": "Sonos",
+                    "type": "Smart Speaker",
+                    "features": "Wireless, Multi-Room, AirPlay"
+                }
+            }
+        ]
+    }
+]

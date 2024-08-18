@@ -11,7 +11,7 @@ from langchain.schema import Document
 import numpy as np
 
 
-os.environ["OPENAI_API_KEY"] = "sk-proj-Q2NpeueMJLBC6Ph8C2tBT3BlbkFJl7Be8iVm0d6suLtwVaJq"
+os.environ["OPENAI_API_KEY"] = "sk-None-yrWVX46jIjQ43VsJwOT4T3BlbkFJIRarXVz7ixFJgwpnzUHe"
 
 chat_model = ChatOpenAI(model="gpt-4o-mini")
 

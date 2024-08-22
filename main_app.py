@@ -10,8 +10,7 @@ import os
 from langchain.schema import Document
 import numpy as np
 
-
-os.environ["OPENAI_API_KEY"] = "sk-None-yrWVX46jIjQ43VsJwOT4T3BlbkFJIRarXVz7ixFJgwpnzUHe"
+os.environ["OPENAI_API_KEY"] = "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"
 
 chat_model = ChatOpenAI(model="gpt-4o-mini")
 
@@ -71,182 +70,148 @@ def find_closest_category(user_input):
 
     return closest_category
 
-# Define a tool to get category products
+# Define a tool to get category attributes
 @tool
-def get_category_products(user_message: str) -> list:
+def get_category_and_attributes(user_message: str) -> list:
     """
-    Make a filter based on this category and return all products in this category.
+    Get attributes for a specific category based on the user's input to help ask specific questions related to them and make the search and recommendation process easier.
 
     Args:
-    user_message (str): The original message from the user.
+    user_message (str): The message from the user.
 
     Returns:
-    list: A list of products in the specified category.
+    closest_category (str): The category that best matches the user's input.
+    attributes (dict): A dictionary of attributes for the closest category.
+
     """
     closest_category = find_closest_category(user_message)
 
-    products = vectorstore.similarity_search(query=user_message, k=100, filter={"category": closest_category})
-
-    product_list = []
-    for product in products:
-        product_info = {
-            "name": product.metadata["name"],
-            "description": product.page_content,
-            "price": product.metadata["price"],
-        }
-        product_list.append(product_info)
-    return closest_category, product_list
-
-# Define a tool to get category attributes
-@tool
-def get_category_attributes(category: str) -> list:
-    """
-    Retrieve the attributes for a given product category to help ask specific questions related to the attributes and make the search and recommendation process easier.
-
-    Args:
-    category (str): The product category.
-
-    Returns:
-    list: A list of attributes for the specified category.
-    """
-    keys_set = set()
+    attributes = {}
     for doc in llm_data:
-        if doc.metadata.get("category") == category:
-            keys_set.update(doc.metadata.keys())
-    keys_set.discard('category')
-    attributes = list(keys_set)
-    return attributes
+        if doc.metadata.get("category") == closest_category:
+            for key, value in doc.metadata.items():
+                if key != "category":
+                    attributes[key] = value
+
+    return closest_category, attributes
 
 # Define a tool to recommend products
 @tool
-def recommend_products(user_message: str, category: str, user_responses: dict) -> list:
+def recommend_products(user_message: str, closest_category:str, attributes: dict) -> list:
     """
     Recommend products based on the specified category and user-defined attributes. This tool filters products by matching the category and user-specified attributes such as brand, screen size, and other features.
 
     Args:
-    user_message (str): The original message from the user.
-    category (str): The product category.
-    user_responses (dict): The user's preferences and requirements, e.g., {"brand": "Samsung", "screen size": "50 inches"}.
+    user_message (str): The message from the user.
+    closest_category (str): The category that best matches the user's input.
+    attributes (dict): A dictionary of user-defined attributes.
 
     Returns:
-    list: A list of recommended products that match the user's criteria.
+    recommended_products (list): A list of recommended products.
     """
     # Create filter conditions based on user_responses, excluding price
-    filters = {"category": category}
-    for key, value in user_responses.items():
-        if key != "price":
+    filters = {"category": closest_category}
+    for key, value in attributes.items():
+        if value and key == "brand":
             filters[key] = value
 
     # Perform a similarity search with the specified filters
-    recommended_products = vectorstore.similarity_search(query=user_message, k=100, filter=filters)
+    recommended_products = vectorstore.similarity_search(query=user_message, k=10, filter=filters)
     return recommended_products
 
 
-tools = [get_category_products, get_category_attributes, recommend_products]
+tools = [get_category_and_attributes, recommend_products]
 
 system_schema = """
-You are an AI chatbot designed to act as a recommendation engine for Raya Store, Egypt's premier electronics e-commerce website. Your primary function is to assist users in finding the best products based on their needs and preferences.
+You are an AI assistant for Raya Store, specializing in helping customers find and recommend electronics based on the available data. Your role is to guide the user through the process of selecting a product by asking clarifying questions and making suggestions based on the data loaded from the provided JSON file. If the user asks about a product category or specific product that is not available in the data, respond by saying "Products currently not available." Ensure that you provide personalized recommendations by understanding the user's preferences, such as budget, features, and brand preferences. Always strive to be helpful, friendly, and concise.
 
-When interacting with users, always provide responses in the language and dialect that matches the user's input.
-
-Your role is to:
-
-1. **Greeting and Introduction:**
-   Start by greeting the user politely and introducing yourself as an AI assistant from Raya Store. Clearly state your purpose, which is to help them find the perfect products.
-   Example: "Hello! I'm your AI assistant from Raya Store. I'm here to help you find the best products for your needs. How can I assist you today?"
-
-2. **Understanding User's Needs:**
-   Ask the user to specify the type of product they are looking for, such as mobile phones, TVs, or any other category. Use the `get_category_products` tool to retrieve the closest_category and a list of related products based on the category identified from the user's message.
-   Example: "Can you please specify the type of product you are looking for? Like mobile phones, TVs, or any other category?"
-
-3. **Display Related Products:**
-   After calling the `get_category_products` tool, display the `product_list` (the list of products related to the user's input).
-
-   Example: "Here are some mobile phones I found [List of products with brief descriptions and prices]."
-
-4. **Inquiring for Specific Preferences:**
-   Automatically send the `closest_category` to the `get_category_attributes` tool to retrieve relevant attributes for the identified category. Ask the user specific questions about their preferences related to these attributes to help refine their search.
-   Example: "Based on the mobile phones I've found, could you tell me if you have any preferences for brand, screen size, or any particular features? What's your price range?"
-
-5. **Providing Tailored Recommendations:**
-   Use the `closest_category` along with the user's preferences (obtained from the attribute-based questions) as input to the `recommend_products` tool. Provide the user with tailored recommendations based on their answers.
-   Example: "Based on your preferences, here are some mobile phones that might interest you: [List of recommended products with brief descriptions and prices]."
-
-6. **Offering Additional Assistance:**
-   After providing recommendations, ask the user if they need more details about any specific product or if they want additional recommendations.
-   Example: "Would you like more information on any of these products, or should I suggest some more options?"
-
-7. **Confirming User's Input:**
-   Summarize the information you have gathered and confirm with the user to ensure accuracy before finalizing your recommendations.
-   Example: "So, you're looking for a Samsung smartphone with a large display and a budget of around 10,000 EGP. Is that correct?"
-
-8. **Ending the Conversation:**
-   Conclude the interaction by thanking the user for visiting Raya Store. Encourage them to return for future purchases and remind them that they can reach out anytime they need assistance.
-   Example: "Thank you for choosing Raya Store! If you need any more assistance in the future, feel free to reach out. Have a great day!"
-
-Always make sure your responses are helpful, polite, and tailored to the user's current query. If a user requests a product or information that is not available, clearly inform them that the "product is currently unavailable" and suggest alternative options if possible.
+When interacting with users, you must always respond in the language that matches the user's input. If the user writes in English, respond in English. If the user writes in Arabic, respond in Arabic.
 """
 
 
 
-input_schema = """Answer the following question asked by one of our customers. I will provide you with the customer's message and the context of the chat history.
+input_schema = """
+Answer the following question asked by one of our customers. I will provide you with the customer's message and the context of the chat history.
 
 Chat History Context enclosed by ========:
 ========Chat History Start========
 {chat_history}
 ========Chat History End========
 
-Think before you reply and revise your answer.
-Focus on the customer's current message and provide a helpful response in the same language and dialect.
+Step 1: Identify the closest category using the "get_category_and_attributes" tool. If no matching category or attributes are found, respond with "Products currently not available."
+        If a matching category is found, you must recommend at least 5 products related to the closest category identified to help user.
+        Retrieve a dictionary of attributes associated with that category.
 
-Customer's Current Message: {input}"""
+Step 2: Ask the user about specific features that are important to them using the attributes retrieved from the "get_category_and_attributes" tool to guide your questioning.
+
+Step 3: Based on the user's preferences and the identified category, use the "recommend_products" tool to refine the product recommendations by filtering with the user's specific attributes and recommending the best-related products. If no products are available that match the user's request, respond with "Products currently not available."
+
+Think before you reply and revise your answer.
+
+Focus on the customer's current message and provide a helpful response.
+
+Always respond in the same language and dialect as the user's current message. Do not switch languages unless the user does.
+
+Customer's Current Message: {input}
+"""
+
+
 
 prompt = ChatPromptTemplate.from_messages([
     ("system", system_schema),
-    ("human", input_schema),
+    ("human", "{input}"),
     ("placeholder", "{agent_scratchpad}"),
 ])
 
 agent = create_tool_calling_agent(chat_model, tools, prompt)
 agent_executor = AgentExecutor(agent=agent, tools=tools, verbose=True)
 
-chat_history = []
-
 def start_conversation():
-    agent_response = agent_executor({"input": "", "chat_history": chat_history})
-    ai_message = AIMessage(content=agent_response["output"])
-    chat_history.append(ai_message)
-    return agent_response["output"]
+    initial_message = "Hello! I'm your AI assistant from Raya Store. I'm here to help you find the best products for your needs. How can I assist you today?"
+    st.session_state['chat_history'].append({"role": "assistant", "content": initial_message})
+    return initial_message
 
 def chat_with_bot(user_input):
-    human_message = HumanMessage(content=user_input)
-    chat_history.append(human_message)
-    agent_response = agent_executor({"input": user_input, "chat_history": chat_history})
-    ai_message = AIMessage(content=agent_response["output"])
-    chat_history.append(ai_message)
-    return agent_response["output"]
+    print(30*"*")
+    print(st.session_state['chat_history'])
+    print(30*"*")
+    st.session_state['chat_history'].append({"role": "user", "content": user_input})
+    input = input_schema.format(chat_history=st.session_state['chat_history'], input=user_input)
+    agent_response = agent_executor.invoke({
+        "input": input,
+    })
+
+    bot_response = agent_response["output"]
+    st.session_state['chat_history'].append({"role": "assistant", "content": bot_response})
+    return bot_response
 
 # Streamlit UI
-st.title("AI Search Chatbot for Raya Store")
+st.title("💬 Welcome to Raya Chatbot")
 
 if 'chat_history' not in st.session_state:
     st.session_state['chat_history'] = []
 
-with st.form(key='chat_form', clear_on_submit=True):
-    user_input = st.text_input("Type your message here:")
-    submit_button = st.form_submit_button(label='Send')
-
-if submit_button and user_input:
-    st.session_state['chat_history'].append(("User", user_input))
-    bot_response = chat_with_bot(user_input)
-    st.session_state['chat_history'].append(("Bot", bot_response))
-
-# Display chat history
-for sender, message in st.session_state['chat_history']:
-    st.write(f"**{sender}:** {message}")
-
-# Start the conversation with an initial message
 if not st.session_state['chat_history']:
-    initial_message = start_conversation()
-    st.session_state['chat_history'].append(("Bot", initial_message))
-    st.write(f"**Bot:** {initial_message}")
+    start_conversation()
+
+for msg in st.session_state['chat_history']:
+    st.chat_message(msg["role"]).write(msg["content"])
+
+if prompt := st.chat_input():
+    bot_response = chat_with_bot(prompt)
+    st.chat_message("assistant").write(bot_response)
+
+# Bot: Hello! Welcome to Raya Store. I'm your virtual assistant here to help you find the best electronics. How can I assist you today? Are you looking for something specific, or would you like some recommendations?
+
+# User:     
+
+# Bot: Great! What features are important to you? Are you looking for a particular brand, camera quality, battery life, or maybe a budget-friendly option?
+
+# User: I want an Apple mobile with a good camera and long battery life, and my budget is around 1100.
+
+# Bot: Based on your preferences, here are a few smartphones that might interest you: 
+# 1. [Smartphone 1] - Excellent camera and 24-hour battery, priced at $499.
+# 2. [Smartphone 2] - Great camera with 30-hour battery life, priced at $520.
+# 3. [Smartphone 3] - Solid camera and battery life with additional features, priced at $480.
+
+# Would you like more details on any of these options?

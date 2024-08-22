@@ -13,6 +13,16 @@
                 }
             },
             {
+                "name": "iPhone 15",
+                "description": "Apple iPhone 15 with A15 Bionic chip and 6.7-inch display",
+                "price": 1800,
+                "attributes": {
+                    "brand": "Apple",
+                    "storage": "256GB",
+                    "color": "Black"
+                }
+            },
+            {
                 "name": "Samsung Galaxy S21",
                 "description": "Samsung Galaxy S21 with Exynos 2100 and 6.2-inch display",
                 "price": 799.99,
